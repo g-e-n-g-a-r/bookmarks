@@ -1,2 +1,12 @@
-site_name: My Docs
-theme: terminal
+site_name: ./bookmarks
+site_url: https://g-e-n-g-a-r.github.io/bookmarks/
+theme: 
+  name: terminal
+  features:
+    - footer.prev_next
+    - navigation.side.indexes
+
+nav:
+  - Home: index.md
+  - Stars: 
+    - Index: stars.md
